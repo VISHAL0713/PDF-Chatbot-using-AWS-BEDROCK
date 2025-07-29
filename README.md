@@ -52,11 +52,3 @@ In this hands-on tutorial, we will demonstrate the following:
   Run ADMIN application:
   `docker run -e BUCKET_NAME=<YOUR S3 BUCKET NAME> -v ~/.aws:/root/.aws -p 8084:8084 -it pdf-reader-client`
 
-
-#### Note: The docker volume mount is only needed in local. If you are running the container in ECS, or EKS, the iam role is used.
-
-
-## Youtube
-I have created a Youtube video for this tutorials with step-by-step hands-on coding.
-
-[![Chat With PDF - Generative AI Application](https://i9.ytimg.com/vi/KFibP7KnDVM/mqdefault.jpg?v=66342224&sqp=CKzU0LEG&rs=AOn4CLASIjZrAdMHdLjZjWOnwM4a7gvQnA)](https://www.youtube.com/watch?v=KFibP7KnDVM)
